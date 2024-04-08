@@ -3,32 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Food Delivery System</title>
-    <link rel="stylesheet" href="styles/index.css">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="src/styles/login.css">
 </head>
 <body>
-    <header>
-        <h1>Food Delivery System</h1>
-    </header>
-    <nav>
-        <ul id="nav">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Restaurants</a></li>
-            <li><a href="#">Orders</a></li>
-        </ul>
-    </nav>
-    <section class="hero">
-        <h2>Welcome to Our Food Delivery System</h2>
-        <p>Order delicious food online and get it delivered to your doorstep!</p>
-        <a href="#" class="btn">Order</a>
-    </section>
-    <section class="restaurants">
-        <div class="restaurant">
-            <img src="" alt="">
-        </div>
-    </section>
-    <footer>
-        <p>&copy; 2024 Food Delivery System. All rights reserved.</p>
-    </footer>
+    <div class="login-container">
+        <form action="#" method="POST" class="login-form">
+            <h2>Login</h2>
+            <div class="input-group">
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username">
+            </div>
+            <div class="input-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password">
+            </div>
+            <button type="submit" class="btn"><a href="./dashboard.html">Login</a></button>
+            <p class="signup-link">Don't have an account? <a href="signup.html">Sign up</a></p>
+        </form>
+    </div>
 </body>
 </html>
