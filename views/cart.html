@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>View Cart</title>
+    <link rel="stylesheet" href="../styles/dashboard.css">
+    <link rel="stylesheet" href="../styles/cart.css">
+</head>
+<body>
+    <header><h1>Shopping Cart</h1></header>
+    <nav>
+        <a href="">Home</a>
+        <a href="orders.html">Orders</a>
+        <a href="cart.html">Cart</a>
+        <a href="../index.html">Logout</a>
+    </nav>
+    <div class="cart-items">
+        <table>
+            <thead>
+                <tr>
+                    <th>Product</th>
+                    <th>Quantity</th>
+                    <th>Price</th>
+                    <th>Total</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Product 1</td>
+                    <td>2</td>
+                    <td>$10.00</td>
+                    <td>$20.00</td>
+                    <td><button onclick="removeItem(1)">Remove</button></td>
+                </tr>
+                <!-- Add more rows for additional items in the cart -->
+            </tbody>
+        </table>
+        <div class="actions">
+            <button onclick="clearCart()">Clear Cart</button>
+            <div class="checkout">
+                <button onclick="checkout()">Checkout</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function removeItem(itemId) {
+            // Implement logic to remove item from the cart
+            alert("Remove item with ID: " + itemId);
+        }
+
+        function clearCart() {
+            // Implement logic to clear the cart
+            alert("Clear cart");
+        }
+
+        function checkout() {
+            // Implement logic to proceed to checkout
+            alert("Proceed to checkout");
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Ordering Dashboard</title>
+    <link rel="stylesheet" href="../styles/dashboard.css">
+    <link rel="stylesheet" href="../styles/orders.css">
+</head>
+
+<body>
+    <header>
+        <h1>Manage Orders</h1>
+    </header>
+    <nav>
+        <a href="dashboard.html">Home</a>
+        <a href="orders.html">Orders</a>
+        <a href="cart.html">Cart</a>
+        <a href="../index.html">Logout</a>
+    </nav>
+    <div class="container">
+        <table>
+            <thead>
+                <tr>
+                    <th>Order ID</th>
+                    <th>Items Ordered</th>
+                    <th>Total Amount</th>
+                    <th>Status</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Pizza, Salad</td>
+                    <td>$20.00</td>
+                    <td>Processing</td>
+                    <td>
+                        <a href="order.html">
+                            <button onclick="viewOrderDetails(1)">View Details</button>
+                        </a>
+                        <button onclick="cancelOrder(1)">Cancel</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="actions">
+            <button onclick="clearOrders()">Clear Orders</button>
+        </div>
+    </div>
+</body>
+
+</html>

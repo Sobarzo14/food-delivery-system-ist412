@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Details</title>
+    <link rel="stylesheet" href="../styles/dashboard.css">
+    <link rel="stylesheet" href="../styles/order.css">
+</head>
+<body>
+    <header><h1>Order Details</h1></header>
+    <nav>
+        <a href="">Home</a>
+        <a href="orders.html">Orders</a>
+        <a href="cart.html">Cart</a>
+        <a href="../index.html">Logout</a>
+    </nav>
+    <div class="order-details">
+        <div class="order-info">
+            <label for="order-id">Order ID:</label>
+            <span id="order-id">12345</span>
+        </div>
+        <div class="order-info">
+            <label for="items">Items Ordered:</label>
+            <span id="items">Pizza, Salad</span>
+        </div>
+        <div class="order-info">
+            <label for="total-amount">Total Amount:</label>
+            <span id="total-amount">$20.00</span>
+        </div>
+        <div class="order-info">
+            <label for="status">Status:</label>
+            <span id="status">Delivered</span>
+        </div>
+        <div class="review-form">
+            <h2>Leave a Review</h2>
+            <textarea id="review" placeholder="Write your review here..."></textarea><br>
+            <input type="submit" value="Submit Review">
+        </div>
+    </div>
+</body>
+</html>
