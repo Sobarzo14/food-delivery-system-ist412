@@ -13,16 +13,15 @@
         <a href="">Home</a>
         <a href="orders.html">Orders</a>
         <a href="cart.html">Cart</a>
-        <a href="../index.html">Logout</a>
+        <a href="../../index.html">Logout</a>
     </nav>
     <div class="cart-items">
         <table>
             <thead>
                 <tr>
-                    <th>Product</th>
-                    <th>Quantity</th>
+                    <th>Name</th>
                     <th>Price</th>
-                    <th>Total</th>
+                    <th>Calories</th>
                 </tr>
             </thead>
             <tbody id="table">
@@ -30,7 +29,6 @@
                     <td>Product 1</td>
                     <td>2</td>
                     <td>$10.00</td>
-                    <td>$20.00</td>
                 </tr>
             </tbody>
         </table>
@@ -41,21 +39,6 @@
         </div>
     </div>
 
-    <script>
-        function removeItem(itemId) {
-            // Implement logic to remove item from the cart
-            alert("Remove item with ID: " + itemId);
-        }
-
-        function clearCart() {
-            // Implement logic to clear the cart
-            alert("Clear cart");
-        }
-
-        function checkout() {
-            // Implement logic to proceed to checkout
-            alert("Proceed to checkout");
-        }
-    </script>
+    <script src="../controllers/cart.js"></script>
 </body>
 </html>

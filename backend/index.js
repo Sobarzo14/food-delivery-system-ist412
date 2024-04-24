@@ -56,6 +56,14 @@ app.get("/getOrder/", (req,res) => {
     })
 });
 
+app.get("/getOrders/", (req,res) => {
+    fs.readFile("./database/orders.json", (err, data) => {
+        let json = JSON.parse(data);
+        json = json.currentOrder;
+        res.send(json)
+    })
+});
+
 
 // POST: Add a username to the system (no password or auth required)
 // POST: Create a reservation for a given user. It should specify username, start date, start time, and number of hours

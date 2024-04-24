@@ -5,15 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin Page - Add Food Item</title>
     <link rel="stylesheet" href="../styles/admin_page.css">
+    <link rel="stylesheet" href="../styles/dashboard.css">
 </head>
 <body>
-    <h1>Add New Food Item</h1>
+    <header><h1>Admin Panel</h1></header>
+    <nav>
+        <a href="">Home</a>
+        <a href="orders.html">Orders</a>
+        <a href="cart.html">Cart</a>
+        <a href="../../index.html">Logout</a>
+    </nav>
     <form action="#" method="post" enctype="multipart/form-data">
         <label for="name">Name:</label>
         <input type="text" id="name" name="name" required>
 
-        <label for="description">Description:</label>
-        <textarea id="description" name="description" rows="4" required></textarea>
+        <label for="description">Calories:</label>
+        <input type="text" id="description" name="description" required></textarea>
 
         <label for="price">Price:</label>
         <input type="text" id="price" name="price" required>
