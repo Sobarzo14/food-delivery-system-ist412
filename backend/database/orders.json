@@ -1,0 +1,16 @@
+{
+    "currentOrder": {
+        "id": 1,
+        "order": [],
+        "total": 0,
+        "review": ""
+    },
+    "pastOrders": [
+        {
+            "id": 1,
+            "order": [],
+            "total": 0,
+            "review": ""
+        }
+    ]
+}

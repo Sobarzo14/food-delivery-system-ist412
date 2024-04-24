@@ -1,0 +1,14 @@
+{
+    "users": [
+        {
+            "username": "admin",
+            "password": "admin",
+            "page": "./views/admin_page.html"
+        },
+        {
+            "username": "root",
+            "password": "root",
+            "page": "./views/dashboard.html"
+        }
+    ]
+}

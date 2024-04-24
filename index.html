@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/login.css">
+    <link rel="stylesheet" href="/frontend/styles/login.css">
     <title>Login</title>
 </head>
 <body>
@@ -13,10 +13,8 @@
         
         <label for="password">Password:</label><br>
         <input type="password" id="password" name="password"><br><br>
-        <a href="views/dashboard.html">
-            <input type="button" value="Login">
-        </a>
+        <input type="button" onclick="login()" value="Login">
     </form>
 </body>
-<script src="scripts/authentication.js"></script>
+<script src="./frontend/controllers/authentication.js"></script>
 </html>

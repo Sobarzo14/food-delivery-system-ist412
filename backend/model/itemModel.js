@@ -1,19 +1,34 @@
-import mongoose from "mongoose";
-
-const itemSchema = mongoose.Schema(
-    {
-        name: {
-            type: String,
-            required: true,
-        },
-        price: {
-            type: Number,
-            required: true,
-        },
-        image: {
-            type: Image,
-        }
+class Item {
+    constructor(name, price, calories) {
+        this.name = name;
+        this.price = price;
+        this.calories = calories;
     }
-)
 
-export const Item = mongoose.model("Cat", itemSchema)
+    getName() {
+        return this.name;
+    }
+
+    getPrice() {
+        return this.price;
+    }
+
+    getCalories() {
+        return this.calories;
+    }
+
+    setName(name) {
+        this.name = name;
+    }
+
+    setPrice(price) {
+        this.price = price;
+    }
+
+    setCalories(calories) {
+        this.calories = calories;
+    }
+
+}
+
+export default Item;
