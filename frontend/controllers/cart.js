@@ -8,14 +8,20 @@ function getOrder() {
         data.order.forEach(element => {
             document.querySelector("#table").innerHTML +=
                 `
+                <tr>
                 <td>${element.name}</td>
                 <td>${element.calories}</td>
                 <td>${element.price}</td>
+                </tr>
                 `
         });
         document.querySelector("#table").innerHTML += `<div>Total: $${data.total}</div>`
     }
     request.send();
+}
+
+function checkOut() {
+    
 }
 
 getOrder();
