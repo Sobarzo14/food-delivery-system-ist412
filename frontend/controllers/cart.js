@@ -20,8 +20,9 @@ function getOrder() {
     request.send();
 }
 
-function checkOut() {
-    
+function checkout() {
+    request.open("PUT", `http://127.0.0.1:3000/checkout/`, true);
+    request.send();
 }
 
 getOrder();

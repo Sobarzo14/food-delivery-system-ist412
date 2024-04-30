@@ -65,3 +65,16 @@ Abelardo: Took care of the connections with the requests and the models so the d
 Sam: Designed the controllers so the user and the system can communicate with each other as the connections
 
 Heather: Designed the user interfaces to be visually pleasing and functional
+
+## Final Part
+Abelardo Sobarzo: 
+- Connected the client with the server with API endpoints
+- 33%
+
+Heather Leins:
+- Created backend serverside database infrastructure using JSON and Vercel
+- 33%
+
+Sam Kenny:
+- Created client user interfaces and also connected them to the logic behind the controllers
+- 33%

@@ -40,7 +40,6 @@ function getMenu(button) {
 function addToOrder(item) {
     request.open("PUT", `http://127.0.0.1:3000/addToOrder/${item}`, true)
     request.send();
-
     console.log(item)
 }
 

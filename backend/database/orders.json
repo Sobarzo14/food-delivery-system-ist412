@@ -1,1 +1,9 @@
-{"currentOrder":{"id":1,"order":[{"id":3,"name":"Spicy Deluxe Sandwich","price":4.99,"calories":550,"image":"https://d1fd34dzzl09j.cloudfront.net/Images/CFACOM/PLP%20updates/Spicy%20Deluxe/CFA14300_Winter24_SpicyDeluxe-OnWhite_PLP_Hero_D_710x580.jpg_master.jpg?h=580&w=710&la=en"},{"name":"Filet-O-Fish","price":3.79,"calories":410,"image":"https://s7d1.scene7.com/is/image/mcdonalds/Header_FiletoFish_832x472:product-header-desktop?wid=830&hei=458&dpr=off"}],"total":22.83,"review":""},"pastOrders":[{"id":1,"order":[],"total":0,"review":""}]}
+{
+    "currentOrder": {
+        "id": 0,
+        "order": [],
+        "total": 0,
+        "review": ""
+    },
+    "pastOrders": []
+}
