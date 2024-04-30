@@ -1,5 +1,14 @@
 # Food Delivery System
 
+## Instructions for Running the system
+
+1. Download and extract the zip file 
+2. If you don't have node.js installed, make sure to install it otherwise it won't work: Here is a link to instructions for installing [Here](https://nodejs.org/en/download)
+3. Open command line and navigate to the backend folder
+4. When you are in the backend folder, run the following command: node index.js (This begins the server)
+5. In your file explorer go to the frontend folder, and right click on the index.html file, and then click on open with Chrome (or any browser)
+6. If that doesn't work, you can use the link below, but it tends to not work as well as the local instance. 
+
 **When you want to see the system running live, use the following link: [Here](https://sobarzo14.github.io/food-delivery-system-ist412/)**
 
 ## M03-A04 Implemented Design Patterns
